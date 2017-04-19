@@ -2,7 +2,7 @@
 <div class="home_banner_txt"><?php echo $this->config['home_welcome']; ?></div>
 
 <div class="home_depo">
-	<h3>Depoimentos de clientes satisfeitos</h3>
+	<h3>Depoimentos de Clientes</h3>
 	<?php foreach($depoimentos as $depitem): ?>
 		<strong><?php echo utf8_encode($depitem['nome']); ?></strong><br/>
 		<?php echo utf8_encode($depitem['texto']); ?>
@@ -11,6 +11,6 @@
 </div>
 
 <div class="home_cta">
-	Deseja conferir nossos serviços?<br/>
+	Deseja conhecer nossos serviços?<br/>
 	<a href="<?php echo BASE.'servicos'; ?>"><div>Conferir Nossos Serviços</div></a>
 </div>
