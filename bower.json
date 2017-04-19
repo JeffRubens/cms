@@ -1,0 +1,21 @@
+{
+  "name": "cms",
+  "homepage": "https://github.com/JeffersonRubens/cms",
+  "authors": [
+    "Rubens Lima <rubens@magustec.com.br>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
